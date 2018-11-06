@@ -8,8 +8,12 @@ class Index extends \think\Controller
         return $this->fetch();
     }
 
-    public function hello($name = 'ThinkPHP5')
+    public function about()
     {
-        return 'hello,' . $name;
+        return $this->fetch();
+    }
+    
+    public function products(){
+        return $this->fetch();
     }
 }

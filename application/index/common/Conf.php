@@ -1,6 +1,6 @@
 <?php
 
-namespace app\index\controller;
+namespace app\index\common;
 
 class Conf {
     public static $bannerMsg=array(

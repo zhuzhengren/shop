@@ -10,4 +10,6 @@ use think\Model;
 class Goods extends Model{
     protected $pk = "goods_id";
     protected $table = "goods";
+    
+    
 }
